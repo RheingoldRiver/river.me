@@ -1,0 +1,4 @@
+baseURL = "https://river.me/"
+languageCode = "en-us"
+title = "river.me"
+theme = "ananke"
