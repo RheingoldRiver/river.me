@@ -72,8 +72,13 @@ busuanziPagePV = true # post view count
 
 # comment
 enableComment = true
-disqus_shortname = "" 
+disqus_shortname = ""
 commento = false
+
+# author
+author = "River"
+authorImage = "/images/Avatar.jpg"
+authorDesc = "River is a MediaWiki developer and manager of Leaguepedia. She likes cats."
 
 [gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
 owner = ""              # Your GitHub ID
@@ -100,7 +105,7 @@ appId = '你的appId'
 appKey = '你的appKey'
 notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
 verify = false # Verification code
-avatar = 'mm' 
+avatar = 'mm'
 placeholder = '说点什么吧...'
 visitor = false
 
@@ -118,18 +123,18 @@ scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions] # if set, social icons will show up.
-email = "mailto:your@email.com"
+email = "mailto:river.esports@gmail.com"
 phone = ""
-facebook = "http://example.org/"
-twitter = "http://example.org/"
-github = "https://github.com/zzossig/hugo-theme-zzo"
+facebook = ""
+twitter = "http://twitter.com/rheingoldriver"
+github = "https://github.com/rheingoldriver"
 stack-overflow = ""
 instagram = ""
 google-plus = ""
 youtube = ""
 medium = ""
 tumblr = ""
-linkedin = ""
+linkedin = "https://linkedin.com/in/meganrosecutrofello"
 pinterest = ""
 stack-exchange = ""
 telegram = ""
@@ -168,3 +173,6 @@ name = "facebook"
 [[share]]
 name = "twitter"
 username = ""
+
+[custom]
+leaguepedia_citation = "(Note: All code in this post was originally written by me for [Leaguepedia](https://lol.gamepedia.com) and is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).)"

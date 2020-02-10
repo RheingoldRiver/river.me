@@ -3,9 +3,3 @@
   name = "about"
   url = "about"
   weight = 1
-
-[[main]]
-  identifier = "archive"
-  name = "archive"
-  url = "archive"
-  weight = 2
