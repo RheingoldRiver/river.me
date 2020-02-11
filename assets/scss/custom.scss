@@ -1,0 +1,6 @@
+/* Remove spacing in between paragraphs and following lists */
+.single__contents p + ul,
+.single__contents p + ol,
+.single__contents p + div.highlight {
+  margin-top: calc(1rem/2 - 1.75rem);
+}

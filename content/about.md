@@ -1,0 +1,13 @@
+---
+title: About
+date: 2020-02-11T01:32:55Z
+description: 'About - RheingoldRiver'
+type: about
+---
+River (full alias - RheingoldRiver, legal name - Megan Cutrofello) attended Caltech from 2009-2013 and graduated with honors and a double major in Math and Economics. During her undergraduate years she fell in love with *League of Legends* and knew without a doubt she wanted to work in some way related to the game. Starting partway through her senior year of school, she began creating *League*-related content, including organizing community events through the /r/SummonerSchool subreddit, shoutcasting for NESL and ESL, writing an 80-page-long Sona gameplay guide, attending the NA LCS and giving player interviews, creating giant Excel sheets with esports stats, and more.
+
+In January 2014 River joined Leaguepedia, initially only interested in helping with the site's social media accounts - and definitely, absolutely, unconditionally *not* interested in learning anything about wiki markup let alone coding. However, within a year she was creating templates and within two years she was creating Semantic templates. Two years after that (early 2018) she was beginning to learn Lua and converting her Semantic MediaWiki code to Cargo. As of January 2020, the wiki's entire code base has been migrated to Lua, SMW is disabled, she has DigitalOcean droplets hosting cron tasks to do basic maintenance alongside a Discord RED bot instance to run tasks on demand from editors (and host this site!), and her current project is to finish the process of single-source-of-truth-ing roster changes (if that sounds like a thing that requires way too much semantic meaning to be turned into relational data, yes). So that went kind of not as expected....
+
+Aside from coding and reading coding/CS textbooks, River has had several hobbies over the years, including modular origami (did you know how good Sonobe unit polyhedra with edge-length 1 are at demonstrating duality of the Platonic solids?), chainmaille jewelry (Moorish Rose can be extended to a new weave that she created and named Moorish 8-4 by using a different regular tiling of the plane!), and playing Puzzle and Dragons (some of the modularity arguments in her Amun leader guide were left as exercises to the reader). So maybe the outcome of her wiki editing went *exactly* as expected.
+
+You can reach River in any of the MediaWiki chat rooms on Riot chat; she loves talking about ways to do cool things in Cargo. If you're from Fandom/Gamepedia, reach her in the Fandom-Gamepedia Discord server. If not, and you want involved help / code written for you, she's available for contract consultation, and you can reach her via any of the links in the site's footer.
