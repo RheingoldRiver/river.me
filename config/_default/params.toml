@@ -1,10 +1,10 @@
-logoText = "River's blog" # Logo text that appears in the site navigation bar.
+logoText = "River Writes" # Logo text that appears in the site navigation bar.
 logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
 logo = true # Logo that appears in the site navigation bar.
 description = "River's blog - MediaWiki development & more" # for SEO
 custom_css = ["scss/custom.scss"] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
-useFaviconGenerator = false # https://www.favicon-generator.org/
+useFaviconGenerator = true # https://www.favicon-generator.org/
 languagedir = "ltr" # ltr / rtl
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
@@ -61,7 +61,7 @@ sidebarPosition = "right" # bio, profile component layout position
 showPoweredBy = true # show footer text: Powered by Hugo and Zzo theme
 showFeedLinks = false # RSS Feed 
 showSocialLinks = true # email, facebook, twitter ...
-enableLangChange = true # show button at bottom left of footer.
+enableLangChange = false # show button at bottom left of footer.
 
 # service
 baiduAnalytics = "" # alternative of google analytics
@@ -78,7 +78,7 @@ commento = false
 # author
 author = "River"
 authorImage = "/images/Avatar.jpg"
-authorDesc = "River is a MediaWiki developer and manager of Leaguepedia. She likes cats."
+authorDesc = "River is a MediaWiki developer and the manager of Leaguepedia. She likes cats."
 
 [gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
 owner = ""              # Your GitHub ID

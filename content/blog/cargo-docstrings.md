@@ -91,7 +91,7 @@ end
 There's some additional make-it-available-from-wikitext wrapping to fetch args from frame as well as the definition of `util_map.inPlace()` (it does what you'd guess) but this is pretty much all that's needed for the declaration to work.
 
 Beyond that, there's two places I want docstrings available. The first is on the actual Cargo Declare template page, as a table (additional examples in use can be seen [here](https://lol.gamepedia.com/Category:Cargo_Declaration_Templates)):
-![Example Cargo documentation with docstrings](/images/cargo-docstrings-doc-table.png)
+![Example Cargo documentation with docstrings](/images/cargo-docstrings/doc-table.png)
 And code to generate this:
 ```lua
 function p.doc(args)
@@ -111,7 +111,7 @@ end
 ```
 
 The second is on the actual Cargo table page (additional examples in use [here](https://lol.gamepedia.com/Special:CargoTables/)):
-![Example Special:CargoTables page with docstrings](/images/cargo-docstrings-cargo-page.png)
+![Example Special:CargoTables page with docstrings](/images/cargo-docstrings/cargo-page.png)
 This part is a bit tricker since we can't actually control creation of this page, and here's where the "random hack" part of this entire thing comes in. Here's the JavaScript code:
 
 ```js
