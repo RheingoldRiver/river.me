@@ -1,7 +1,7 @@
 ---
-title: "Using the Mediawiki Api without coding"
+title: "Using the Mediawiki API without coding"
 date: 2020-02-24T04:22:03Z
-draft: true
+draft: false
 tags:
     - mediawiki
     - mediawiki_api
@@ -27,7 +27,7 @@ This is a dropdown from which you select the type of thing you want to do. Some 
 
 Let's look at the `pfautoedit` action, because this is one of the simplest ones to use. If you don't use Page Forms, you can skip the next paragraph, which explains *why* we might want to use this, and jump to the paragraph after, which explains *how* to do it.
 
-Why use `pfautoedit`? When you make a change to a form such as adding a checkbox or changing the order of two parameters, the wikitext that gets saved to the page upon submission changes. If you add a checkbox, a value of `Yes` or `No` will be added by the extension. If you change the order of parameters, the extension will change order of previously-given parameters. This can cause a lot of irrelevant "spam" to take up much of future diffs on pages that already contained saved versions of the old wikitext. Sometimes this isn't a big deal, but if you make a lot of changes - or if you have to pay very close attention to new revisions - it can be pretty annoying to deal with. Fortunately, the extension comes in with a built-in way to deal with this! The `pfautoedit` action applies a "form edit" to every page you send it to. (Note that there are other ways, outlined [at the extension's documentation](https://www.mediawiki.org/wiki/Extension:Page_Forms/Linking_to_forms#Modifying_pages_automatically), of performing this action automatically.)
+Why use `pfautoedit`? When you make a change to a form such as adding a checkbox or changing the order of two parameters, the wikitext that gets saved to the page upon submission changes. If you add a checkbox, a value of `Yes` or `No` will be added by the extension. If you change the order of parameters, the extension will change the order of previously-given parameters. This can cause a lot of irrelevant "spam" to take up much of future diffs on pages that already contained saved versions of the old wikitext. Sometimes this isn't a big deal, but if you make a lot of changes - or if you have to pay very close attention to new revisions - it can be pretty annoying to deal with. Fortunately, the extension comes in with a built-in way to deal with this! The `pfautoedit` action applies a "form edit" to every page you send it to. (Note that there are other ways, outlined [at the extension's documentation](https://www.mediawiki.org/wiki/Extension:Page_Forms/Linking_to_forms#Modifying_pages_automatically), of performing this action automatically.)
 
 How to use `pfautoedit`? If you skipped the last paragraph, welcome back! Let's walk through how to use this action - it's the same basic process for any action you might take.
 
@@ -47,7 +47,7 @@ In this screenshot, every field that we've made a change to is highlighted in a 
 
 ***WARNING: Every action you make in API:Sandbox will actually be run on your actual wiki!! It is not a safe sandbox playground for testing!!! Be aware of the consequences!!!***
 
-![Screenshot of pfautoedit result](/images/mediawiki-api-without-coding/pfautoedit-filled-in.png)
+![Screenshot of pfautoedit result](/images/mediawiki-api-without-coding/pfautoedit-result.png)
 
 I've numbered several items in this result. Let's look at each one:
 1. Where it says "URL query string," this is its summary of what you just entered. You can click to have it show you the JSON format instead.
@@ -173,10 +173,12 @@ $(function() {
             'Total transclusions: ' + ti,
             'Redirects and links to redirects are NOT included!'
         ];
-        $(el).html(display.join('<br>'))
+        $(el).html(display.join('<br>'));
     });
 });
 ```
+
+(Notice that one-item `for` loop I mentioned earlier?)
 
 So even if you don't understand any of the code part, or why it says `.then` after the `return` or any of that, just look at this one bit:
 
