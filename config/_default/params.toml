@@ -1,7 +1,7 @@
 logoText = "River Writes" # Logo text that appears in the site navigation bar.
 logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
 logo = true # Logo that appears in the site navigation bar.
-description = "River's blog - MediaWiki development & more" # for SEO
+description = "RheingoldRiver's blog - MediaWiki development, Leaguepedia stories, and productivity hacks" # for SEO
 custom_css = ["scss/custom.scss"] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 useFaviconGenerator = true # https://www.favicon-generator.org/
@@ -49,7 +49,7 @@ enableSidebarSeries = false
 enableSidebarCategories = false
 enableHomeSidebarTitles = true
 enableListSidebarTitles = true
-enableToc = true # single page table of contents, you can replace this param to toc(toc = true)
+enableToc = false # single page table of contents, you can replace this param to toc(toc = true)
 hideToc = true # Hide or Show toc
 tocPosition = "inner" # inner, outer
 tocFolding = false
@@ -78,7 +78,7 @@ commento = false
 # author
 author = "River"
 authorImage = "/images/Avatar.jpg"
-authorDesc = "River is a MediaWiki developer and the manager of Leaguepedia. She likes cats."
+authorDesc = "River (RheingoldRiver) is a MediaWiki developer and the manager of Leaguepedia. She likes cats."
 
 [gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
 owner = ""              # Your GitHub ID

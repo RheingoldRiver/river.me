@@ -21,6 +21,28 @@ SetTitleMatchMode 2
 ```
 Of course you can change the key binding and the text of the name of the tab as needed.
 
+**Update, March 9**
+I didn't like that this changes the order in which Firefox windows were most recently accessed, causing new external links to open in the same window as the stream, so I [wrote a Firefox extension](https://github.com/RheingoldRiver/MuteTabsMatchingPattern) to get around this.
+
+I also updated the AHK code, since now it would problematically alt-tab if a non-stream window of Firefox were currently focused:
+
+```
+^!+x::
+ if WinActive("Mozilla Firefox") {
+  Send, ^+O
+  return
+ }
+ else {
+  WinActivate,Mozilla Firefox
+  Send, ^+O
+  #IfWinActive
+  Send, !{tab}
+  return
+ }
+```
+
+**End Update**
+
 ## Long Version
 
 I have a rule that if I spend more than an hour to figure something out, I'll document it *somewhere*, so that my effort can be found via search engine. Usually in the past that's been a reddit thread, but since I have a blog now I'll do this here.
