@@ -43,6 +43,24 @@ I also updated the AHK code, since now it would problematically alt-tab if a non
 
 **End Update**
 
+**Update, April 5**
+I changed my AHK code again, and now no window re-ordering occurs. The addon is still needed, however, since this method doesn't permit targeting a specific tab:
+```
+^!+x::
+    IfWinActive ahk_class MozillaWindowClass
+    {
+        Send, ^+O
+        return
+    }
+    IfWinNotExist ahk_class MozillaWindowClass
+        return
+    ControlSend,ahk_parent, ^+O
+    return
+```
+
+At this point I'm completely satisfied with my solution; I have a global hotkey that immediately mutes my stream with no window reordering or focus change whatsoever.
+**End Update**
+
 ## Long Version
 
 I have a rule that if I spend more than an hour to figure something out, I'll document it *somewhere*, so that my effort can be found via search engine. Usually in the past that's been a reddit thread, but since I have a blog now I'll do this here.
