@@ -2,4 +2,6 @@ archetypes
 data
 layouts
 resources
-static
+static/*
+!static/js
+!static/js/*

@@ -1,0 +1,19 @@
+.theme__dark {
+  --color-footnote-highlight:250, 232, 133;
+}
+
+.theme__light {
+  --color-footnote-highlight:96, 125, 139;
+}
+
+.theme__hacker {
+	--color-footnote-highlight: 227, 205, 38;
+}
+
+.theme__solarized {
+	--color-footnote-highlight: 203, 75, 22;
+}
+
+.theme__kimbie {
+	--color-footnote-highlight: 145, 47, 44;
+}
