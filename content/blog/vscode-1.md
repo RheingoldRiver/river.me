@@ -4,6 +4,7 @@ date: 2020-05-26T06:23:13Z
 draft: false
 tags:
     - vscode
+    - sublimetext
 summary: Last week I installed VSCode for the first time, after using exclusive SublimeText for about two years (and Notepad++ prior to that). I'm going to document my learning curve.
 ---
 ## Introduction
