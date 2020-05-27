@@ -1,6 +1,5 @@
 archetypes
 data
-layouts
 resources
 static/*
 !static/js
