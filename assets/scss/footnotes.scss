@@ -43,6 +43,11 @@ sup[id^="fnref"]:focus a.footnote-ref::after {
   animation: highlight 2s cubic-bezier(0.3, 0, 1, 0.7);
 }
 
+/* Mirror margin in main body css */
+.single__contents a.footnote-ref {
+  margin-right:3px;
+}
+
 .single__contents a.footnote-ref::before {
   content:'';
 }

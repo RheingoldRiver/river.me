@@ -25,7 +25,7 @@ Crucially, this entire setup requires no additional effort or special knowledge 
 
 Throughout this post I've included numerous code snippets; some of them are modified to omit details not yet relevant to the discussion, and some of them appear multiple times. Therefore I've included a full list of all code files at the end of this post, which you can read or copy or ignore. [Click here](#code-files) to skip to the code (or to check the scroll bar to see how much of this you don't have to read).
 
-{{% leaguepedia_citation %}}
+{{% leaguepedia_citation_ema_help %}}
 
 ## Highlighting disambigs
 The first thing I did was simply to highlight links to disambiguations in a very noticeable style, so that there was a clear signal to the editor that something was wrong.
@@ -416,7 +416,7 @@ $(function() {
 
 The snipped bits are to do with the extension [TippingOver](https://github.com/oOeyes/TippingOver), which I use to generate my tooltips. I'll show that at the end.
 
-To accomplish the user-can't-see-anything part, we add the class `catlink-disambiguations-activated` in this function, and adjust our earlier CSS as follows:
+To accomplish the user-can't-see-anything part, we add the class `catlink-disambiguations-activated` in this function, and adjust our earlier CSS as follows. Credit to Ema for this part:
 
 ```css
 .catlink-disambiguations {
