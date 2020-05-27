@@ -5,7 +5,7 @@ draft: false
 tags:
     - vscode
     - sublimetext
-summary: Last week I installed VSCode for the first time, after using exclusive SublimeText for about two years (and Notepad++ prior to that). I'm going to document my learning curve.
+summary: Last week I installed VSCode for the first time, after using exclusively SublimeText for about two years (and Notepad++ prior to that). I'm going to document my learning curve.
 ---
 ## Introduction
 Last week, after I published my blog post on disambiguation pop-ups, I started outlining my next post, which is about the framework for pop-ups in general that my disambiguations code was built on top of.[^schedule] I typed a couple section names, pasted in some code, and then I wanted to code-fold a completed section in the middle and start writing around it, both before and after.
