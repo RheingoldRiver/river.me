@@ -1,13 +1,13 @@
 ---
 title: "Popups"
-date: 2020-05-18T20:21:07Z
-draft: true
+date: 2020-06-02T20:21:07Z
+draft: false
 tags:
     - mediawiki
     - javascript
     - css
     - mediawiki_api
-summary: Lazily loading content can allow you to offer users a wide range of dynamic content options on a page without problematically increasing loading times. Here's how I've built a framework for both static and lazily-loaded popups.
+summary: Popup content can offer users a wide range of dynamic content options on a page - and lazily-loading popup content can do this without increasing loading times. Here's how I've built a framework for both static and lazily-loaded popups.
 ---
 
 [Two posts ago](https://river.me/blog/disambig-highlight/), I talked about my setup for automatically showing popups next to links to disambiguation pages. That entire structure relies on my previously-written "popup content" framework, so this time we'll discuss that.
@@ -21,7 +21,7 @@ And here's an example of a lazily-loaded popup:
 {{% leaguepedia_citation_ema_help %}}
 
 ## History
-Click [here](#creating-the-current-approach) to skip this section.
+Click [here](#creating-the-current-approach) to skip this section; none of the code mentioned here is current.
 
 The first popup content I displayed on the wiki was called "tournament-team history," and it showed a single team's schedule of games from a tournament inside of a pop-up available in tournament results sections. If you were on SK Telecom T1's page and clicked the "tth" pop-up in the LCK 2019 Summer row, you'd see a table showing all of SK Telecom T1's games during Worlds 2019:
 
