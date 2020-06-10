@@ -58,6 +58,6 @@ Another disadvantage is that this is a *lot* more coding intensive - I need to s
 
 Also, of course this solution doesn't create the location for accumulating tournament results in any way, since there is no live page period.
 
-Another option is to partially snap - instead of creating tens of thousands of pages, maybe we only create a couple thousand. If we limit to players linked to from team pages who also have additional pieces of data beyond ingame ID, maybe we can keep our situation relatively well controlled.
+Another option is to partially snap - instead of creating tens of thousands of pages, maybe we only create a couple thousand. If we limit to players linked to from team pages who also have additional pieces of data beyond ingame ID, maybe we can keep our situation relatively well controlled. [Update - As of June 9, this is what we are doing! Snapped pages are being created for players mentioned in team pages, but not for players only mentioned in tournament pages.]
 
 Whatever we do, this has been a very fun scenario to consider over the past several months, and I think the final product is guaranteed to be exciting! (At least, if you are excited by data management it will be...)
