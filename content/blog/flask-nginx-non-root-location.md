@@ -42,7 +42,7 @@ Here's some resources I followed/found helpful:
 * [How To Serve Flask Applications with uWSGI and Nginx on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uswgi-and-nginx-on-ubuntu-18-04)
   * Technically I'm running on Debian 10 (for which there was no dedicated guide), but I don't think that made anything different
   * I didn't follow step 3 as written since I set up my app as shown in the Flask tutorial linked above
-  * My nginx config also isn't identical because I was already hosting this blog as well as a couple other things (a friend of mine did the config). Also see below for an issue I had with this.
+  * My nginx config also isn't identical because I was already hosting this blog as well as a couple other things (a friend of mine did the initial config months ago). Also see below for an issue I had with this.
 * [What is the uwsgi_params file?](https://uwsgi-docs.readthedocs.io/en/latest/Nginx.html#what-is-the-uwsgi-params-file)
   * This is required by step 6 of the above guide but not mentioned anywhere. This may be part of the debian-ubuntu difference, or maybe it's because nginx was already installed and not by following a DO walkthrough? Not sure...but just copy that to the same directory as `nginx.conf` or whatever your config file is.
   * Found via [this SO post](https://stackoverflow.com/questions/24132137/where-should-the-uwsgi-params-file-be-located-and-what-is-its-extension)
