@@ -24,5 +24,7 @@ Other solutions I had considered:
 * With the option of running two cheaper ones in parallel if I couldn't find one that had four non-DP ports
 * HDMI or DVI splitter, but these seem to only mirror, not actually let you split signal
 * Other window managers, including [DisplayFusion](https://www.displayfusion.com/), but reviews seemed to suggest its support for fixing this issue didn't actually work (I do use this to manage my wallpapers though)
+* Never let my monitors turn off
+* Use a screen saver?
 
 So, yay, no more DisplayPort ever again!
