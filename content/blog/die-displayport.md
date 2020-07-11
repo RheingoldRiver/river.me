@@ -27,4 +27,6 @@ Other solutions I had considered:
 * Never let my monitors turn off
 * Use a screen saver?
 
+Fortunately the USB to HDMI adapter worked, as this was the only sane option out of everything I considered.
+
 So, yay, no more DisplayPort ever again!
