@@ -33,7 +33,7 @@ Once you've [set up](https://github.com/tosher/Mediawiker/wiki/Howto) Mediawiker
 
 It also automatically recognizes the type of syntax highlighting that should be used based on page name - modules (namespace 828) are automatically Lua, unless the page name ends in `/doc`; pages that end in `.css` are CSS, etc.
 
-Recently, the developer added the ability to set up a Jinja template for new pages' preloads, using logic based on page name, namespace, etc (though previously this was easy to do by slightly tweaking the extension's code). This lets you start out with all of your common imports in a Lua module, or just the text `<includeonly></includeonly><noinclude>{{documentation}}</noinclude` if you create a new template.
+Recently, the developer added the ability to set up a Jinja template for new pages' preloads, using logic based on page name, namespace, etc (though previously this was easy to do by slightly tweaking the extension's code). This lets you start out with all of your common imports in a Lua module, or just the text `<includeonly></includeonly><noinclude>{{documentation}}</noinclude>` if you create a new template.
 
 As an example, here's my current new-page template (note the whitespace is commented, which is kind of annoying, but, hey, we work with MediaWiki after all).
 ```jinja
