@@ -23,7 +23,7 @@ The first three methods I outline here are three variations on a similar theme, 
 
 While these scenarios are only provided for the purpose of illustration, do keep in mind that site notices are a valuable tool whenever you do need an extended maintenance that could create broken or incomplete data - use them liberally to inform your users about ongoing development projects!
 ### Downtime, with errors everywhere
-This is probably the easiest way to rename a table. If you're in the early stages of using your table - especially if you don't have qny queries yet! - this is also totally acceptable. If your wiki is low enough traffic, or a personal project, this might also be fine.
+This is probably the easiest way to rename a table. If you're in the early stages of using your table - especially if you don't have any queries yet! - this is also totally acceptable. If your wiki is low enough traffic, or a personal project, this might also be fine.
 #### The method
 1. Prepare all of your queries to use the new table but don't save anything yet
 2. Prepare the stores to use the new table but don't save anything yet
