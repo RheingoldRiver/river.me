@@ -1,5 +1,5 @@
 ---
-title: "How To Rename Cargo Tables Safely"
+title: "How to rename Cargo tables safely"
 date: 2020-08-11T01:08:14Z
 draft: false
 tags:
@@ -60,6 +60,7 @@ Note: The copy-paste into an external text editor is to avoid edit conflicts.
 It's still not a great experience for users because their data disappears. This can also break literally everything if you ever have store-query-store patterns. It's also more work than the earlier methods.
 
 ### Ctrl C, Ctrl V
+This is a way to have your old table running in parallel with your new table, but it has a lot of downsides, as you will see after the method is presented.
 #### The Method
 1. Create a new template with a copy-paste of the original table's declaration, except with the new name
 2. Copy-paste the `#cargo_store` block of code in every template that stores to the table
@@ -78,6 +79,7 @@ Third, it requires you to edit each template not just once, but twice, which ope
 Finally, you can't `#cargo_attach` more than one table to the same template. So if more than one template is storing to this table, and you are already attaching the old table, you will need to use the [multiple-table attach workarournd that I documented on the Gamepedia Help wiki](https://help.gamepedia.com/Extension:Cargo/attaching_tables).
 
 ## The right way to rename a Cargo table
+We can take advantage of the replacement table mechanism to maintain a read-only copy of the original table until we've finished transitioning to the new table:
 1. Create a replacement table for your old table. The original version of your old table is now read-only, forever.
 2. Change your declaration and store(s) (and attach(es), if applicable) to use the new name
 3. Create your new table
