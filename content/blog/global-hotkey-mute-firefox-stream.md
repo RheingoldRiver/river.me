@@ -4,6 +4,7 @@ date: 2020-03-03T01:50:20Z
 draft: false
 tags:
     - autohotkey
+    - firefox
 summary: How to set up a global hotkey to toggle mute a tab of Firefox (for example a Twitch stream) using AutoHotKey
 ---
 

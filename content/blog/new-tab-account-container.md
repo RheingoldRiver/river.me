@@ -4,6 +4,7 @@ date: 2020-07-01T15:09:08Z
 draft: false
 tags:
     - autohotkey
+    - firefox
 summary: A new AutoHotKey mini-adventure, in which I want a hotkey to create a new tab in a specific container, but here there be dragons!
 ---
 
