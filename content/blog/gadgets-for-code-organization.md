@@ -101,3 +101,5 @@ $(function() {
 On the page `MediaWiki:Gadgets-definition` (but not when viewing the history), this code replaces each gadget name with a link to that gadget, and the result is that you can use the given interface view to navigate to individual gadget pages.
 
 Finally, what about searching? Even though it sucks to have a single file with *everything* in it, it can't be denied that sometimes you're going to forget where you put a definition of a CSS property, or where was that place you used `expandtemplates` so you can copy the api parameter names. You're gonna need *some* way to search all of your code - fortunately, there is a very easy way! Just do a search restricted to the MediaWiki namespace for the code you're looking for. You can either do a normal search and then edit the namespaces you want to see in the `Advanced` tab, or you can make a keyword-search bookmark to do the restriction for you....More on that later....
+
+Update - On Septeber 8, I [finally published](https://river.me/blog/url-bar-is-a-cli/) my "more on that later" post!
