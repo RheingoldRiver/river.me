@@ -5,6 +5,7 @@ draft: false
 tags:
     - windows
 summary: DisplayPort sucks in a multi-monitor setup and I'm celebrating not using it anymore.
+description: DisplayPort sucks in a multi-monitor setup and I'm celebrating not using it anymore.
 ---
 
 When I built my current PC, I was really excited about VR gaming and planned to buy a VR headset and start playing VR games. (Unfortunately, I never got around to getting a VR headset, even three years later....) I invested into a nice graphics card without paying too much attention to what ports it had - DVI, HDMI, and DisplayPort were all probably fine, it had five ports, and I "only" use four monitors, so no problem, right?

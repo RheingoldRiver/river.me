@@ -6,6 +6,7 @@ tags:
     - mediawiki
     - leaguepedia
 summary: Highlight Links In Category is a very small MediaWiki extension that applies classes to links based on the links' targets' categories. It has a number of incredibly nice use cases; here I give some examples.
+description: Highlight Links In Category has a number of incredibly nice use cases; here I give some examples.
 ---
 [Highlight Links in Category](https://www.mediawiki.org/wiki/Extension:Highlight_Links_in_Category) is a small MediaWiki extension, hosted on [GitHub](https://github.com/labster/HighlightLinksInCategory). All it does is apply classes to internal links based on their targets' categories, and a couple weeks ago I [wrote a patch](https://github.com/labster/HighlightLinksInCategory/pull/7/files) to follow links' redirect targets as well and pull categories from the target rather than the source. This extension is indispensible for my wiki, but I don't often see other wikis using it, so here I will go over some use cases, including a mix of some actual use cases of my own and some hypothetical ones.
 

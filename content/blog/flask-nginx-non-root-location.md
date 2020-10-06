@@ -7,6 +7,7 @@ tags:
     - nginx
     - linux
 summary: I couldn't find much documentation on how to serve Flask with uWSGI and Nginx from a non-root location, so, here's some.
+description: I couldn't find much documentation on how to serve Flask with uWSGI and Nginx from a non-root location, so, here's some.
 ---
 
 [Lack of documentation on how to serve Flask under a non-root path](https://github.com/pallets/flask/issues/1714). That's pretty much the story of why this past weekend sucked, and why I'm writing this blog post. That issue was opened in 2016, and as far as I can tell, there's still not great documentation about it. If you found this blog post in a search engine and are just looking for a solution, hopefully this helps:

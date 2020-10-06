@@ -7,6 +7,7 @@ tags:
     - javascript
     - css
 summary: Though it's mostly used as a way to let wikis have opt-in or opt-out CSS and JS features for users, the Gadgets extension is a great way to organize code instead of using Common.css and Common.js for everything.
+description: The Gadgets extension is a great way to organize code instead of using Common.css and Common.js for everything.
 ---
 
 The [Gadgets extension](https://www.mediawiki.org/wiki/Extension:Gadgets) provides a means by which you can have opt-in or opt-out CSS and JavaScript for users to toggle in their preferences. But its utility extends beyond that as a method of code organization for wikis with large amount of CSS/JS.

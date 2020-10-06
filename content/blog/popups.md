@@ -8,6 +8,7 @@ tags:
     - css
     - mediawiki_api
 summary: Popup content can offer users a wide range of dynamic content options on a page - and lazily-loading popup content can do this without increasing loading times. Here's how I've built a framework for both static and lazily-loaded popups.
+description: Here's how I've built a framework for both static and lazily-loaded popups.
 ---
 
 [Two posts ago](https://river.me/blog/disambig-highlight/), I talked about my setup for automatically showing popups next to links to disambiguation pages. That entire structure relies on my previously-written "popup content" framework, so this time we'll discuss that.

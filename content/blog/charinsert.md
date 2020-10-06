@@ -7,6 +7,7 @@ tags:
     - javascript
     - lua
 summary: CharInsert is one of my favorite extensions. Here's how I made a Lua wrapper for it to create a user-friendly interface for anyone to add snippets they want.
+description: CharInsert is one of my favorite extensions. Here's how I made a Lua wrapper for it to create a user-friendly interface for anyone to add snippets they want.
 ---
 
 [CharInsert](https://www.mediawiki.org/wiki/Extension:CharInsert) is an extension that enables you to provide editors with links they can click to insert snippets into wikitext. It can be used for anything from providing one-click buttons to insert a single special character to serving as a complete alternative to [BoilerRoom](https://www.mediawiki.org/wiki/Extension:BoilerRoom) or [MultiBoilerplate](https://www.mediawiki.org/wiki/Extension:MultiBoilerplate), though I find it preferable even to either of these.

@@ -6,6 +6,7 @@ tags:
     - mediawiki
     - best_practices
 summary: What's a bot password? What's the difference between bot accounts and bot passwords? Why do I need all this anyway?
+description: What's a bot password? What's the difference between bot accounts and bot passwords? Why do I need all this anyway?
 ---
 
 A "[bot password](https://www.mediawiki.org/wiki/Manual:Bot_passwords)" is a [method of authentication](https://www.mediawiki.org/wiki/API:Login) that you can use to log into the [MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page). If you want to read technical manuals, read those three links instead of this blog post; I'm going to take a non-technical approach here (!).

@@ -6,6 +6,7 @@ tags:
     - mediawiki
     - mediawiki_api
 summary: Using the MediaWiki API doesn't require coding. The on-wiki GUI provided at Special:ApiSandbox allows you to familiarize yourself with available actions, test queries, and run simple batch jobs without writing a single line of code!
+description: Using the MediaWiki API doesn't require coding.
 ---
 So you've heard that a lot of cool stuff is possible "if you just use the API," but that sounds kinda scary. The API? Isn't that a thing developers use? Don't you have to write code for that? Isn't it complicated? I don't know JavaScript! Fortunately, you can do a lot with the API without writing a single line of code - by using the API Sandbox. And even if you do end up writing some code, starting out working with the sandbox can make your transition into doing some basic development tasks a lot friendlier.
 
@@ -53,10 +54,10 @@ I've numbered several items in this result. Let's look at each one:
 1. Where it says "URL query string," this is its summary of what you just entered. You can click to have it show you the JSON format instead.
     * The URL form is useful if, for example, you wanted to be able to bookmark a URL to perform this action on demand - typically I would expect to do this for a query, though, rather than a "doing-something" action. 
     * The JSON form is useful if you want to write code with all of the parameters written out as a nice, neat JSON (basically set of key-value pairs of the arguments you put in it).
-1. The box below it shows whichever thing you selected in part 1.
-1. The main results section shows either a success or failure, if you **did** something, or the results of the query, if you **queried** something. In this case it's a success message. Yay!
-1. If we wanted to go back and edit parameters in the `pfautoedit` action page, we can click here and then run it again.
-1. If we want to run the *exact same request* a second time, we could click "Make request" again. Clicking "clear" will take us back to the very start, before we even selected an action.
+2. The box below it shows whichever thing you selected in part 1.
+3. The main results section shows either a success or failure, if you **did** something, or the results of the query, if you **queried** something. In this case it's a success message. Yay!
+4. If we wanted to go back and edit parameters in the `pfautoedit` action page, we can click here and then run it again.
+5. If we want to run the *exact same request* a second time, we could click "Make request" again. Clicking "clear" will take us back to the very start, before we even selected an action.
 
 Now that we've gone over a simple case of how to type arguments in and get a result, let's look at a sample `query` action that you might want to take. This is also an example you should be able to follow along with, even if you don't have Page Forms installed.
 

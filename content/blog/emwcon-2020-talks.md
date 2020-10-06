@@ -5,6 +5,7 @@ draft: false
 tags:
     - mediawiki
 summary: At EMWCon 2020, I gave one talk and hosted two Create Camp sessions, discussing different aspects of usage of Cargo and Lua in MediaWiki.
+description: At EMWCon 2020, I gave one talk and hosted two Create Camp sessions, discussing different aspects of usage of Cargo and Lua in MediaWiki.
 ---
 [EMWCon Spring 2020](https://www.mediawiki.org/wiki/EMWCon_Spring_2020) was supposed to be held in Sandusky, Ohio, but was moved online due to Coronavirus. I participated from home and gave one talk as well as two Create Camp sessions. Unsurprisingly, they all discussed usage of Cargo and Lua with MediaWiki in some capacity.
 

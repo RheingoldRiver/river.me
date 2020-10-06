@@ -5,6 +5,7 @@ draft: false
 tags: 
     - leaguepedia
 summary: The story of the April Fools Day joke for 2020 that I didn't do, and the "Snap" that we may or may not still do.
+description: The story of the April Fools Day joke for 2020 that I didn't do, and the "Snap" that we may or may not still do.
 ---
 
 In about August 2019 I decided that our April Fools Day joke for 2020 was going to be to put a banner saying, "Great news! We have abandoned all notability guidelines on Leaguepedia!" The joke was....it was going to be true.

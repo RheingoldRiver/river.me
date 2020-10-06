@@ -8,6 +8,7 @@ tags:
     - cargo
     - lua
 summary: The pattern of store -> query -> store -> query can lead to caching nightmares when working with Cargo or SMW in MediaWiki. This is the story of how I dealt with one.
+description: The pattern of store -> query -> store -> query can lead to caching nightmares when working with Cargo or SMW in MediaWiki. This is the story of how I dealt with one.
 ---
 
 Caching is one of the biggest contributing factors to Leaguepedia's complexity. Because we have so many centrally-located data pages, user-facing pages constantly need to have their caches purged after edits are made, not to mention the cases where the `expandtemplates` API is used to fill static pages with generated code for quick lazy loading. This complexity is managed via a large number of automated processes stored as JS gadgets, which I refer to collectively as "Refresh Overview." Editors are used to the idea that after a data page is updated, one must click the "Refresh Overview" button for that particular type of edit; the RO buttons are built into the UI in obvious places, and for the most part everyone is very good about properly updating content this way.

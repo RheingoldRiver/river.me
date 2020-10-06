@@ -3,6 +3,7 @@ title: "Fixing autocomplete in Sublimetext Markdown syntax"
 date: 2020-02-11T05:05:25Z
 draft: false
 summary: How to disable autocompletion in SublimeText markdown syntax
+description: How to disable autocompletion in SublimeText markdown syntax
 tags:
     - sublimetext
 ---

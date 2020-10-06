@@ -7,6 +7,7 @@ tags:
     - leaguepedia
     - best_practices
 summary: Cargo actually provides a way to cleanly rename tables without any "downtime," but it's not obvious or documented how to do this.
+description: Cargo actually provides a way to cleanly rename tables without any "downtime," but it's not obvious or documented how to do this.
 ---
 Renaming Cargo tables is unavoidable in the lifetime of a wiki. But it is potentially an extremely disruptive process - every single store and every single query must be changed, and if you miss one, the effects can be disastrous. Because the `cargoquery` action is available through the Mediawiki api, the effects of a table rename can ripple even farther to third-party users who are querying your data from an external script or program, and you may want to give a grace period of a week or even a month for users to adjust to the rename.
 

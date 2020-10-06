@@ -6,6 +6,7 @@ tags:
     - firefox
     - leaguepedia
 summary: When working with wikis, you can use your URL bar as a CLI-like interface for navigation, making your life a lot easier and more efficient!
+description: When working with wikis, you can use your URL bar as a CLI-like interface for navigation, making your life a lot easier and more efficient!
 ---
 Back in March, I wrote [a post about gadgets](https://river.me/blog/gadgets-for-code-organization/) in which I briefly mentioned making keyword-search bookmarks with namespace-specific restrictions to be able to easily search for code, and concluded with, "More on that later...." Well, it took me six months to get to it but here's that post finally!
 ## A note on browser support

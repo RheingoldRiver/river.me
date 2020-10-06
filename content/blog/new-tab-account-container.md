@@ -6,6 +6,7 @@ tags:
     - autohotkey
     - firefox
 summary: A new AutoHotKey mini-adventure, in which I want a hotkey to create a new tab in a specific container, but here there be dragons!
+description: A new AutoHotKey mini-adventure, in which I want a hotkey to create a new tab in a specific container, but here there be dragons!
 ---
 
 Recently, Fandom introduced a policy that all Google Analytics access must be done via @fandom.com email addresses, which required something to change for me since my primary email that I'm always logged into is @gmail.com. Naturally, I was determined to adapt my tools to my workflow rather than my workflow to my tools. This was surprisingly complicated, so I'll document what I did.

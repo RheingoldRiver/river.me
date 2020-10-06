@@ -7,6 +7,7 @@ tags:
     - cargo
     - leaguepedia
 summary: Managing complexity using Cargo with MediaWiki to track League of Legends esports roster changes.
+description: Managing complexity using Cargo with MediaWiki to track League of Legends esports roster changes.
 ---
 
 The goal: Create a structure of database tables that supports having a "single source of truth" for all data relating to players' tenures on teams: Players' team histories, all former members of any team, reports of changes made during off-season, players' current teams, teams' current players, news items about players, news items about teams, and anything else that can be determined using this data.

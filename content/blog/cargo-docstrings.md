@@ -8,6 +8,7 @@ tags:
     - javascript
 draft: false
 summary: This is not a post about how to add Cargo docstrings on table pages. Rather, it's a post about how to create workarounds in MediaWiki in a reasonably well-controlled manner.
+description: A post about how to create workarounds in MediaWiki in a reasonably well-controlled manner.
 ---
 This is not a post about how to add Cargo docstrings on table pages. Rather, it's a post about how to create workarounds in MediaWiki in a reasonably well-controlled manner.
 

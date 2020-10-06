@@ -6,6 +6,7 @@ tags:
     - mediawiki
     - lua
 summary: A system of hooks in Scribunto can be reasonable to use if you have a wikifarm with synced code that occasionally needs to be slightly modified on one or more wikis. I found the system more complicated than it was worth, but I'm documenting it here before I remove it.
+description: I document my system of using hooks in Scribunto before removing it from my wiki.
 ---
 
 ## Introduction

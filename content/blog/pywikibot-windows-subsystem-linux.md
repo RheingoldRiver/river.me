@@ -7,6 +7,7 @@ tags:
     - windows
     - linux
 summary: How to configure PWB for third-party wikis, specifically in Windows Subsystem for Linux
+description: How to configure PWB for third-party wikis, specifically in Windows Subsystem for Linux
 ---
 [Pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot) is a set of command-line tools written in Python that can be invaluable when performing administration tasks on wikis. It's made even better by running it in a shell that doesn't suck, which unfortunately does not include the Windows command prompt.
 

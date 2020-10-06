@@ -6,6 +6,7 @@ tags:
     - sublimetext
     - mediawiki
 summary: The "Mediawiker" plugin makes Sublime the best IDE-like experience for editing wikis, particularly when one is primarily writing Scribunto/Lua modules. Here's how I've set up my environment.
+description: The "Mediawiker" plugin makes Sublime the best IDE-like experience for editing wikis, particularly when one is primarily writing Scribunto/Lua modules. Here's how I've set up my environment.
 ---
 How do you edit code in MediaWiki? Wikipedia has a [list of text editor support options](https://en.wikipedia.org/wiki/Help:Text_editor_support), including some tools that will mirror your browser's textarea inputs, some browser addons that can help, and the somewhat primitive suggestion to consider **copy-pasting to an external text editor**.
 

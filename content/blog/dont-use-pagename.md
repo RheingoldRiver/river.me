@@ -6,6 +6,7 @@ tags:
     - cargo
     - best_practices
 summary: Sometimes it can seem convenient to use the built-in _pageName field that Cargo provides; however, _pageName is a metadata field, and you should take care to use it only as such.
+description: Sometimes it can seem convenient to use the built-in _pageName field that Cargo provides; however, _pageName is a metadata field, and you should take care to use it only as such.
 ---
 Cargo provides a number of "metadata" fields in every table, including and most notably `_pageName`. Because they are defined by the software, they have absolute definitions and cannot have these definitions altered. They should be treated as metadata fields and only used in contexts where metadata, as opposed to data, is desired. If you treat them as data, you will permanently couple your database schema to the physical layout of your wiki, when these layers should be segregated as much as possible.
 

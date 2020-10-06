@@ -5,6 +5,7 @@ draft: false
 tags:
     - vscode
 summary: In which I report a bug and discover I have to write an extension, sigh
+description: In which I report a bug and discover I have to write an extension, sigh
 ---
 See also: [VSCode 1](https://river.me/blog/vscode-1/)
 ## Ctrl+left arrow

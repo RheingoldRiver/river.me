@@ -7,6 +7,7 @@ tags:
     - mediawiki
     - cargo
 summary: An overview of the process I used to create our single-source-of-truth roster change database tables on Leaguepedia. This post originally was created as a [user page](https://lol.gamepedia.com/User:RheingoldRiver/Blog/New_Roster_Changes) on Leaguepedia.
+description: An overview of the process I used to create our single-source-of-truth roster change database tables on Leaguepedia.
 ---
 Adapted from a [user page](https://lol.gamepedia.com/User:RheingoldRiver/Blog/New_Roster_Changes) blog post on Leaguepedia made on January 1, 2020. Reformatted for Markdown from MediaWiki on February 18, 2020.
 

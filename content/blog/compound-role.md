@@ -6,6 +6,7 @@ tags:
     - leaguepedia
     - lua
 summary: A bunch of things I did wrong because learning is fun!
+description: A bunch of things I did wrong because learning is fun!
 ---
 This post doesn't have a particular goal in mind - I just wanted to write about the evolution of a Lua module that went through a large number of iterations in July.
 ## Background

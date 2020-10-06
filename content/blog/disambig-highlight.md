@@ -9,6 +9,7 @@ tags:
     - cargo
     - css
 summary: Disambiguations are typically somewhat user-unfriendly, especially when a wiki has a relatively low percentage of pages that are disambiguated and so the presence of one is unexpected. Here I describe my method for improving quality of life when disambiguation links do appear.
+description: Disambiguations are typically somewhat user-unfriendly; I describe my method for improving quality of life when disambiguation links do appear.
 ---
 Today on Leaguepedia, if you encounter a disambiguation link, it will be highlighted in bold orange, so you know something is wrong. Additionally, there is a button next to it that you can click to see a pop-up with all of the possible player disambiguation links, which you can choose to follow or copy. And hovering each one shows a further tooltip with some information about the player. (Disambiguations of other types aren't yet supported, but that's on my todo list. It's a pretty nontrivial task for reasons I'll explain later.)
 
